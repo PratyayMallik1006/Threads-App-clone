@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "b36b2f57-0968-41ab-bf9d-698701339d27",
+      "username": "Lewis Hamilton",
+      "handle": "LH44",
+      "bio": "Man on many missions",
+      "link": "lh44.com",
+      "img": "https://i.pinimg.com/originals/83/6b/2f/836b2fc417b6f559e44c18f56d064ee7.jpg",
+      "intagram_url": "https://www.instagram.com/lewishamilton/?hl=en",
+      "followers": [
+        {
+          "user_uuid": "d1c3b31c-c778-460d-a497-841f82ec6ce2"
+        },
+        {
+          "user_uuid": "efe43b01-3739-43d5-9163-7695d29b0a04"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "d1c3b31c-c778-460d-a497-841f82ec6ce2",
+      "username": "Fernando Alonso",
+      "handle": "fernandoal",
+      "bio": "F1 world champion x2",
+      "link": "fa14.com",
+      "img": "https://cdn-6.motorsport.com/images/mgl/6AEomeD6/s800/fernando-alonso-aston-martin-r-1.jpg",
+      "intagram_url": "https://www.instagram.com/fernandoalo_oficial/?hl=en",
+      "followers": [
+        {
+          "user_uuid": "b36b2f57-0968-41ab-bf9d-698701339d27"
+        },
+        {
+          "user_uuid": "efe43b01-3739-43d5-9163-7695d29b0a04"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "efe43b01-3739-43d5-9163-7695d29b0a04",
+      "username": "Max Verstappen",
+      "handle": "maxverstap",
+      "bio": "Keep Pushing the limits 🦁",
+      "link": "mv1.com",
+      "img": "https://e0.365dm.com/23/07/2048x1152/skysports-max-verstappen-red-bull_6210635.jpg",
+      "intagram_url": "https://www.instagram.com/maxverstappen1/?hl=en",
+      "followers": [
+        {
+          "user_uuid": "b36b2f57-0968-41ab-bf9d-698701339d27"
+        },
+        {
+          "user_uuid": "d1c3b31c-c778-460d-a497-841f82ec6ce2"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Thu Jul 13 2023 13:48:56 GMT+0530 (India Standard Time)",
+      "thread_from": "b36b2f57-0968-41ab-bf9d-698701339d27",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "thread 1 from LH",
+      "likes": [
+        {
+          "user_uuid": "d1c3b31c-c778-460d-a497-841f82ec6ce2"
+        },
+        {
+          "user_uuid": "efe43b01-3739-43d5-9163-7695d29b0a04"
+        },
+        {
+          "user_uuid": "b36b2f57-0968-41ab-bf9d-698701339d27"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Thu Jul 13 2023 14:48:56 GMT+0530 (India Standard Time)",
+      "thread_from": "b36b2f57-0968-41ab-bf9d-698701339d27",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "thread 2 from LH",
+      "likes": [
+        {
+          "user_uuid": "b36b2f57-0968-41ab-bf9d-698701339d27"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Thu Jul 13 2023 15:48:56 GMT+0530 (India Standard Time)",
+      "thread_from": "b36b2f57-0968-41ab-bf9d-698701339d27",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "thread 3 from LH",
+      "likes": [
+        {
+          "user_uuid": "b36b2f57-0968-41ab-bf9d-698701339d27"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Thu Jul 13 2023 16:58:56 GMT+0530 (India Standard Time)",
+      "thread_from": "efe43b01-3739-43d5-9163-7695d29b0a04",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "thread 1 from MV",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Thu Jul 13 2023 17:00:56 GMT+0530 (India Standard Time)",
+      "thread_from": "b36b2f57-0968-41ab-bf9d-698701339d27",
+      "thread_to": "efe43b01-3739-43d5-9163-7695d29b0a04",
+      "reply_to": 3,
+      "text": "LH reply to thread 1 from MV",
+      "likes": []
+    },
+    {
+      "id": 5,
+      "timestamp": "Thu Jul 13 2023 17:05:56 GMT+0530 (India Standard Time)",
+      "thread_from": "efe43b01-3739-43d5-9163-7695d29b0a04",
+      "thread_to": "b36b2f57-0968-41ab-bf9d-698701339d27",
+      "reply_to": 0,
+      "text": "MV reply to thread from LH",
+      "likes": []
+    }
+  ]
+}
